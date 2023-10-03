@@ -35,7 +35,7 @@ function Services() {
         <div className="grid grid-cols-12 gap-8">
           {services.map((service, index) => (
             <div
-              className="col-span-4 bg-white p-10 flex flex-col gap-8"
+              className="col-span-12 sm:col-span-4 bg-white p-10 flex flex-col gap-8"
               key={index}
             >
               <img src={service?.icon} className="w-16 h-16" alt="title" />
