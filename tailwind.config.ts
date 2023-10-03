@@ -64,8 +64,14 @@ module.exports = {
         ashGrey: {
           DEFAULT: "#D9D9D6",
         },
+        wolfGrey: {
+          DEFAULT: "#4D4D4D",
+        },
         onyx: {
           DEFAULT: "#363636",
+        },
+        charcoal: {
+          DEFAULT: "#323232",
         },
         pearl: {
           DEFAULT: "#E9E9EC",
