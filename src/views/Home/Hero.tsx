@@ -3,10 +3,10 @@ import React from "react";
 function Hero() {
   return (
     <div>
-      <div className="container w-full py-16 px-28 mt-20">
+      <div className="container w-full py-16 sm:px-28 mt-20">
         <div className="flex flex-col gap-7">
           <div className="w-full flex justify-center">
-            <h1 className="text-6xl font-medium leading-[70px] text-center w-10/12 text-head">
+            <h1 className="text-3xl sm:text-6xl font-medium sm:leading-[70px] text-center w-full sm:w-10/12 text-head">
               Risk-Free Quality: Delivering Exceptional Projects
             </h1>
           </div>
