@@ -35,11 +35,11 @@ module.exports = {
           foreground: "hsl(var(--secondary-foreground))",
         },
         head: {
-          DEFAULT: "#2C2C2C",
+          DEFAULT: "var(--neutral-900, #2C2C2C)",
           foreground: "hsl(var(--head-foreground))",
         },
-        subhead: {
-          DEFAULT: "#00204A",
+        subHead: {
+          DEFAULT: "var(--neutral-700, #444)",
           foreground: "hsl(var(--subhead-foreground))",
         },
         lightBlue: {
