@@ -5,43 +5,24 @@ import { Button } from "@/components/ui/social-button";
 const Footer = () => {
   const data = [
     {
-      title: "CSER Policy Statement",
-      url: "/cser-policy",
+      title: "About",
+      url: "#",
     },
     {
-      title: "Quality Policy",
-      url: "/quality-policy",
+      title: "Services",
+      url: "#",
     },
     {
-      title: "Whistle Blower Policy",
-      url: "/whistle-blower-policy",
+      title: "Projects",
+      url: "#",
     },
     {
-      title: "Anti-human trafficking and modern slavery prohibition Policy",
-      url: "/anti-human-trafficking-and-modern-slavery-prohibtion-policy",
+      title: "Contact Us",
+      url: "#",
     },
     {
       title: "Privacy Policy",
-      url: "/privacy-policy",
-    },
-  ];
-  const data1 = [
-    {
-      title: "Ministry of Labour, Employment and Social Security",
-
-      url: "https://moless.gov.np/np",
-    },
-    {
-      title: "Department of Foreign Employment",
-      url: "https://dofe.gov.np/",
-    },
-    {
-      title: "Foreign Employment Promotion Board",
-      url: "https://feb.gov.np/",
-    },
-    {
-      title: "Nepal Association of Foreign Employment Agencies",
-      url: "https://www.nafea.org.np/cgi-sys/suspendedpage.cgi",
+      url: "#",
     },
   ];
   return (
@@ -51,14 +32,14 @@ const Footer = () => {
           <div className="mb-2 flex h-full flex-col items-start justify-between sm:mb-6 md:w-1/3 md:mb-0">
             <Link href="/">
               <Image
-                src="/assets/images/logo.svg"
+                src="/assets/logo/logo.svg"
                 className="mr-3"
                 width={"264"}
                 height={"85"}
                 alt="FlowBite Logo"
               />
             </Link>
-            <p className="mt-7 text-lg md:text-sm text-primary text-justify">
+            <p className="mt-7 text-lg md:text-sm text-grey text-justify">
               Fermentum odio eu feugiat pretiums nibh. Dolor sit consectetur
               adipiscini over the aenean bcom here.
             </p>
@@ -110,13 +91,13 @@ const Footer = () => {
             <div className="w-80 md:w-50 lg:w-80 p-2.5 pb-3.5 pl-5 flex flex-col gap-7">
               <div className="bg-blue-500 bg-opacity-20 w-6 h-6 rounded-full absolute mr-2 " />
               <div className="ml-2">
-                <h2 className="text-xl font-bold text-head ">Support:</h2>
+                <h2 className="text-xl font-bold text-head ">Company</h2>
               </div>
               <ul className="pt-4 text-sm">
                 {data.map((el, index) => (
                   <li
                     key={index}
-                    className="mb-2 list-disc font-medium text-primary custom-bullet "
+                    className="mb-2 list-disc font-medium text-grey custom-bullet "
                   >
                     <a href={el?.url} className="hover:underline">
                       {el?.title}
@@ -128,30 +109,75 @@ const Footer = () => {
             <div className="w-80 md:w-50 lg:w-80  pt-2.5 pb-3.5 flex flex-col gap-7">
               <div className="bg-blue-500 bg-opacity-20 w-6 h-6 rounded-full absolute mr-2 " />
               <div className="ml-2">
-                <h2 className=" text-xl font-bold text-head ">Useful Links:</h2>
+                <h2 className=" text-xl font-bold text-head ">Contact</h2>
               </div>
-              <ul className="list-disc pt-4 text-sm md:w-64 ">
-                {data1.map((item, index) => (
-                  <li
-                    key={index}
-                    className="mb-2 font-medium text-primary custom-bullet "
-                  >
-                    <a
-                      href={item?.url}
-                      target="_blank"
-                      rel="noreferrer noopener"
-                      className="hover:underline"
-                    >
-                      {item?.title}
-                    </a>
-                  </li>
-                ))}
+              <ul className="pt-4 text-sm">
+                <li className="mb-2 font-medium text-primary ">
+                  <div className="grid grid-cols-12">
+                    <div className="col-span-2 pt-2">
+                      <Image
+                        src="/assets/images/footer/map.svg"
+                        width={"20"}
+                        height={"20"}
+                        alt="Phone Icon"
+                      />
+                    </div>
+                    <div className="col-span-10">
+                      <p className="text-lg text-onyx font-medium leading-7">
+                        Office Location:
+                      </p>
+                      <p className="text-grey text-base font-normal leading-7 ">
+                        818 SW 3RD Ave Suite 161, Oregon, 9999 USA.
+                      </p>
+                    </div>
+                  </div>
+                </li>
+                <li className="mb-2 font-medium text-primary ">
+                  <div className="grid grid-cols-12">
+                    <div className="col-span-2 pt-2">
+                      <Image
+                        src="/assets/images/footer/phone.svg"
+                        width={"24"}
+                        height={"24"}
+                        alt="Phone Icon"
+                      />
+                    </div>
+                    <div className="col-span-10">
+                      <p className="text-lg text-onyx font-medium leading-7">
+                        Talk with Support:
+                      </p>
+                      <p className="text-grey text-base font-normal leading-7 ">
+                        (OO) 123 456 789
+                      </p>
+                    </div>
+                  </div>
+                </li>
+                <li className="mb-2 font-medium text-primary ">
+                  <div className="grid grid-cols-12">
+                    <div className="col-span-2 pt-2">
+                      <Image
+                        src="/assets/images/footer/mail.svg"
+                        width={"24"}
+                        height={"24"}
+                        alt="Phone Icon"
+                      />
+                    </div>
+                    <div className="col-span-10">
+                      <p className="text-lg text-onyx font-medium leading-7">
+                        Email:
+                      </p>
+                      <p className="text-grey text-base font-normal leading-7 ">
+                        info@meem48.com
+                      </p>
+                    </div>
+                  </div>
+                </li>
               </ul>
             </div>
           </div>
         </div>
         <div className="justify-between px-2 sm:flex sm:items-center">
-          <span className="mt-5 text-right  text-sm text-[#707070] sm:text-center">
+          <span className="mt-5 text-right  text-sm text-lightGrey sm:text-center">
             @ Copyright 2023{" "}
             <a href="#" className="hover:underline">
               meem48.com

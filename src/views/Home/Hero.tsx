@@ -1,6 +1,3 @@
-import StyledHeader from "@/components/StyledHeader";
-import { Button } from "@/components/ui/button";
-import Link from "next/link";
 import React from "react";
 
 function Hero() {
@@ -13,7 +10,7 @@ function Hero() {
       </div>
       <div>
         <p className="text-2xl text-center mt-10 text-head">
-          Results That Inspire Trust: Structura Design Co.'s Commitment to
+          Results That Inspire Trust: Structura Design Co.’s Commitment to
           Quality Projects and Impressive Housing for Customers’s Confidence.
         </p>
       </div>

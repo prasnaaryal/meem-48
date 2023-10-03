@@ -56,13 +56,16 @@ module.exports = {
           DEFAULT: "#E79B08",
         },
         grey: {
-          DEFAULT: "rgba(255, 255, 255, 0.69)",
+          DEFAULT: "#656567",
         },
         lightGrey: {
-          DEFAULT: "#E2E4EE",
+          DEFAULT: "#707070",
         },
         ashGrey: {
           DEFAULT: "#D8D8D8",
+        },
+        onyx: {
+          DEFAULT: "#363636",
         },
         pearl: {
           DEFAULT: "#E9E9EC",
