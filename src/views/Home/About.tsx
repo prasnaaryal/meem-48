@@ -30,7 +30,7 @@ function Award() {
             <p className="text-subHead text-lg font-light leading-8 text-justify">
               MEEM 48 ENGINEERING CONSULTANCY , a team of architects and
               engineers dedicated to creating inspiring and sustainable spaces.
-              Our mission is to turn your visions into reality. Together, let's
+              Our mission is to turn your visions into reality. Together, let’s
               build a better world through thoughtful design and innovation.
             </p>
           </div>
