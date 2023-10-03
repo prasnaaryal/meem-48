@@ -1,6 +1,7 @@
 import Hero from "./Hero";
 import Award from "./Award";
 import About from "./About";
+import Services from "./Services";
 
 function Index() {
   return (
@@ -8,6 +9,7 @@ function Index() {
       <Hero />
       <Award />
       <About />
+      <Services />
     </div>
   );
 }
