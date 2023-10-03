@@ -62,7 +62,7 @@ module.exports = {
           DEFAULT: "#707070",
         },
         ashGrey: {
-          DEFAULT: "#D8D8D8",
+          DEFAULT: "#D9D9D6",
         },
         onyx: {
           DEFAULT: "#363636",

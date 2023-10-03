@@ -1,11 +1,13 @@
 import Hero from "./Hero";
+import Award from "./Award";
 import About from "./About";
 
-
-function Index(props: any) {
+function Index() {
   return (
     <div>
-      <Hero />     
+      <Hero />
+      <Award />
+      <About />
     </div>
   );
 }
