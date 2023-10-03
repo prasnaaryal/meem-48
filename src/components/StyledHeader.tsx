@@ -13,9 +13,9 @@ function StyledHeader({
 }) {
   return !main ? (
     <h5
-      className={`mb-3 flex items-center gap-4 text-base font-semibold uppercase text-violet md:mb-7 md:text-base md:tracking-[5px] ${className}`}
+      className={`mb-3 flex items-center gap-4 text-base font-semibold uppercase text-primary md:mb-7 md:text-base md:tracking-[5px] ${className}`}
     >
-      {singleLine && <div className="h-[1px] w-[50px] bg-violet"></div>}{" "}
+      {singleLine && <div className="h-[1px] w-[50px] bg-primary"></div>}{" "}
       {title ?? ""}
     </h5>
   ) : (
