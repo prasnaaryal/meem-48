@@ -14,7 +14,7 @@ module.exports = {
       },
     },
     rotate: {
-      "25": "25deg",
+      "90": "90deg",
     },
     extend: {
       fontFamily: {

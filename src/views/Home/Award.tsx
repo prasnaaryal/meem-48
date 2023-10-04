@@ -1,9 +1,9 @@
 function Award() {
   return (
-    <div className="bg-head py-6 px-[112px]">
-      <div className="flex flex-col sm:flex-row gap-10 sm:gap-[193px]">
-        <div className="flex justify-center items-center">
-          <h6 className="text-white tex-base font-normal leading-8 rotate-90">
+    <div className="bg-head py-6 ">
+      <div className="container flex flex-row gap-5 sm:gap-[193px]">
+        <div className="flex justify-center items-center w-1/6">
+          <h6 className="text-white text-base font-semibold leading-8 -rotate-90 ">
             Awards
           </h6>
         </div>
