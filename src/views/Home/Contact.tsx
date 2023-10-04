@@ -1,45 +1,4 @@
-Skip to content
-meem-48
-/
-meem48-fe
 
-Type / to search
-
-Code
-Issues
-Pull requests
-Actions
-Projects
-Security
-Insights
-Commit
-contact us section
- master
-@srdarkseer
-srdarkseer committed 7 hours ago 
-1 parent 70afb2e
-commit cff5584
- 
-Showing 7 changed files with 135 additions and 0 deletions.
-Filter changed files
- Binary file addedBIN +477 KB 
-public/assets/images/contact/contact.png
-
- 5 changes: 5 additions & 0 deletions5  
-public/assets/images/contact/icons/avatar.svg
-
- 5 changes: 5 additions & 0 deletions5  
-public/assets/images/contact/icons/mail.svg
-
- 5 changes: 5 additions & 0 deletions5  
-public/assets/images/contact/icons/message.svg
-
- 5 changes: 5 additions & 0 deletions5  
-public/assets/images/contact/icons/phone.svg
-
- 113 changes: 113 additions & 0 deletions113  
-src/views/Home/Contact.tsx
-@@ -0,0 +1,113 @@
 import StyledHeader from "@/components/StyledHeader";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -153,41 +112,4 @@ function Contact() {
 }
 
 export default Contact;
-  2 changes: 2 additions & 0 deletions2  
-src/views/Home/index.tsx
-@@ -8,6 +8,7 @@ import Work from "./Work";
-import Services from "./Services";
-import Projects from "./Projects";
-import Stats from "./Stats";
-import Contact from "./Contact";
-
-function Index() {
-  return (
-@@ -22,6 +23,7 @@ function Index() {
-      <Services />
-      <Projects />
-      <Stats />
-      <Contact />
-    </div>
-  );
-}
-0 comments on commit cff5584
-@srd-azminds
  
-Leave a comment
-No file chosen
-Attach files by dragging & dropping, selecting or pasting them.
-Footer
-© 2023 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
