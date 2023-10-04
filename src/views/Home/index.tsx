@@ -5,6 +5,7 @@ import Meem from "./Meem";
 import Residental from "./Residental";
 import Tailored from "./Tailored";
 import Work from "./Work";
+import Services from "./Services";
 
 function Index() {
   return (
@@ -16,6 +17,7 @@ function Index() {
       <Residental />
       <Tailored />
       <Work />
+      <Services />
     </div>
   );
 }
