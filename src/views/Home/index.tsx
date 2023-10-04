@@ -6,6 +6,7 @@ import Residental from "./Residental";
 import Tailored from "./Tailored";
 import Work from "./Work";
 import Services from "./Services";
+import Projects from "./Projects";
 
 function Index() {
   return (
@@ -18,6 +19,7 @@ function Index() {
       <Tailored />
       <Work />
       <Services />
+      <Projects />
     </div>
   );
 }
