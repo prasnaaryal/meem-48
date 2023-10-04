@@ -1,6 +1,6 @@
 import StyledHeader from "@/components/StyledHeader";
 
-function Award() {
+function About() {
   return (
     <div className="container py-36">
       <div className="grid grid-cols-12">
@@ -40,4 +40,4 @@ function Award() {
   );
 }
 
-export default Award;
+export default About;
