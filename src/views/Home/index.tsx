@@ -7,6 +7,7 @@ import Tailored from "./Tailored";
 import Work from "./Work";
 import Services from "./Services";
 import Projects from "./Projects";
+import Testimonials from "./Testimonials";
 import Stats from "./Stats";
 import Contact from "./Contact";
 import Collab from "./Collab";
@@ -23,6 +24,7 @@ function Index() {
       <Work />
       <Services />
       <Projects />
+      <Testimonials />
       <Stats />
       <Contact />
       <Collab />

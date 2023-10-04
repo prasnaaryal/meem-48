@@ -90,6 +90,28 @@
   left: 0;
 }
 
+/* Customize the width and height of slick-dots */
+.slick-dots {
+  display: flex;
+  justify-content: center; /* Center the dots horizontally */
+  align-items: center; /* Center the dots vertically */
+  width: 100%; /* Make sure the dots cover the entire width */
+}
+
+/* Customize the individual dot's size and styling */
+.slick-dots li {
+  width: 25px; /* Set the width of each dot */
+  height: 4px; /* Set the height of each dot */
+  background-color: rgba(65, 105, 225, 0.43); /* Set the background color */
+  border-radius: 0; /* Remove border-radius for a rectangular shape */
+  cursor: default;
+}
+
+/* Customize the active dot */
+.slick-dots li.slick-active {
+  background-color: rgba(65, 105, 225, 0.73); /* Set the active dot color */
+}
+
 /* Underline on Hover effect */
 .underline-on-hover {
   position: relative;
