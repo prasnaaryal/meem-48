@@ -9,6 +9,7 @@ import Services from "./Services";
 import Projects from "./Projects";
 import Stats from "./Stats";
 import Contact from "./Contact";
+import Collab from "./Collab";
 
 function Index() {
   return (
@@ -24,6 +25,7 @@ function Index() {
       <Projects />
       <Stats />
       <Contact />
+      <Collab />
     </div>
   );
 }
