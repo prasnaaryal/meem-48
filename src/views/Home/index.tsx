@@ -1,7 +1,7 @@
 import Hero from "./Hero";
 import Award from "./Award";
 import About from "./About";
-import Services from "./Services";
+import Meem from "./Meem";
 import Residental from "./Residental";
 import Tailored from "./Tailored";
 import Work from "./Work";
@@ -12,7 +12,7 @@ function Index() {
       <Hero />
       <Award />
       <About />
-      <Services />
+      <Meem />
       <Residental />
       <Tailored />
       <Work />
