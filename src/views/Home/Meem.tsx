@@ -24,7 +24,7 @@ const services = [
   },
 ];
 
-function Services() {
+function Meem() {
   return (
     <div className="bg-cream py-28">
       <div className="container">
@@ -59,4 +59,4 @@ function Services() {
   );
 }
 
-export default Services;
+export default Meem;

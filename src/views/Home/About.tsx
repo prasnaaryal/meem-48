@@ -2,7 +2,7 @@ import StyledHeader from "@/components/StyledHeader";
 
 function About() {
   return (
-    <div className="container py-36">
+    <div className="container py-36" id="about">
       <div className="grid grid-cols-12">
         <div className="col-span-12 sm:col-span-6 h-[560px] sm:w-[592px] flex gap-2">
           <div className="h-[480px] sm:w-[280px] pb-20">

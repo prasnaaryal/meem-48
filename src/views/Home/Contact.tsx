@@ -1,11 +1,10 @@
-
 import StyledHeader from "@/components/StyledHeader";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 
 function Contact() {
   return (
-    <div className="bg-cream py-36">
+    <div className="bg-cream py-36" id="contact">
       <div className="container grid grid-cols-12 gap-8 sm:gap-14">
         <div className="hidden sm:block col-span-12 md:col-span-7 flex items-center">
           <img
@@ -112,4 +111,3 @@ function Contact() {
 }
 
 export default Contact;
- 

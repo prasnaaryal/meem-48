@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 
 function Work() {
   return (
-    <div className=" bg-cream py-36">
+    <div className=" bg-cream py-36" id="work">
       <div className="container grid grid-cols-12 gap-14 sm:gap-10">
         <div className="col-span-12 sm:col-span-6 flex flex-col gap-10 sm:gap-24 w-[360px] sm:w-full">
           <div>
