@@ -1,0 +1,193 @@
+Skip to content
+meem-48
+/
+meem48-fe
+
+Type / to search
+
+Code
+Issues
+Pull requests
+Actions
+Projects
+Security
+Insights
+Commit
+contact us section
+ master
+@srdarkseer
+srdarkseer committed 7 hours ago 
+1 parent 70afb2e
+commit cff5584
+ 
+Showing 7 changed files with 135 additions and 0 deletions.
+Filter changed files
+ Binary file addedBIN +477 KB 
+public/assets/images/contact/contact.png
+
+ 5 changes: 5 additions & 0 deletions5  
+public/assets/images/contact/icons/avatar.svg
+
+ 5 changes: 5 additions & 0 deletions5  
+public/assets/images/contact/icons/mail.svg
+
+ 5 changes: 5 additions & 0 deletions5  
+public/assets/images/contact/icons/message.svg
+
+ 5 changes: 5 additions & 0 deletions5  
+public/assets/images/contact/icons/phone.svg
+
+ 113 changes: 113 additions & 0 deletions113  
+src/views/Home/Contact.tsx
+@@ -0,0 +1,113 @@
+import StyledHeader from "@/components/StyledHeader";
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
+
+function Contact() {
+  return (
+    <div className="bg-cream py-36">
+      <div className="container grid grid-cols-12 gap-8 sm:gap-14">
+        <div className="hidden sm:block col-span-12 md:col-span-7 flex items-center">
+          <img
+            src="/assets/images/contact/contact.png"
+            alt="Interior Model"
+            className="w-full h-[300px] sm:h-[592px]"
+          />
+        </div>
+
+        {/* Enquiry Form */}
+        <div className="col-span-12 md:col-span-5">
+          <div className="  flex flex-col gap-10 justify-center">
+            <div className="flex flex-col gap-5">
+              <StyledHeader title="Contact Us" singleLine={true} />
+              <h1 className="mb-6 text-2xl  sm:text-4xl font-medium text-head w-auto">
+                Get a quote
+              </h1>
+              <p className="text-grey">
+                Feel free to get a quotation. Just fill this form and send it to
+                us. We will contact you as early as possible.
+              </p>
+            </div>
+            <div className="flex flex-col gap-10 xl:gap-6 w-full">
+              <Input
+                id="myInput"
+                type="text"
+                placeholder="Name"
+                className="w-full h-14 border pl-10 pr-12 pl placeholder:text-head placeholder:font-semibold"
+                style={{
+                  backgroundImage:
+                    "url(/assets/images/contact/icons/avatar.svg)", // Set the background image
+                  backgroundRepeat: "no-repeat",
+                  backgroundPosition: "left 10px center",
+                  backgroundSize: "20px 20px", // Adjust the size of the icon
+                }}
+              />
+
+              <Input
+                id="myInput"
+                type="text"
+                placeholder="Email"
+                className="w-full h-14 border pl-10 pr-12 placeholder:text-head placeholder:font-semibold"
+                style={{
+                  backgroundImage: "url(/assets/images/contact/icons/mail.svg)", // Set the background image
+                  backgroundRepeat: "no-repeat",
+                  backgroundPosition: "left 10px center",
+                  backgroundSize: "20px 20px", // Adjust the size of the icon
+                }}
+              />
+
+              <Input
+                id="myInput"
+                type="text"
+                placeholder="Phone"
+                className="w-full h-14 border pl-10 pr-12 placeholder:text-head placeholder:font-semibold"
+                style={{
+                  backgroundImage:
+                    "url(/assets/images/contact/icons/phone.svg)", // Set the background image
+                  backgroundRepeat: "no-repeat",
+                  backgroundPosition: "left 10px center",
+                  backgroundSize: "20px 20px", // Adjust the size of the icon
+                }}
+              />
+
+              <Input
+                id="myInput"
+                type="text"
+                placeholder="Write your message here"
+                className="w-full border pl-10 pr-12 placeholder:text-head placeholder:font-semibold"
+                textarea={true} // Specify textarea prop as true
+                rows={4}
+                multiline={true}
+                style={{
+                  backgroundImage:
+                    "url(/assets/images/contact/icons/message.svg)", // Set the background image
+                  backgroundRepeat: "no-repeat",
+                  backgroundPosition: "10px 10px", // Set the background position to left 10px and top 10px
+                  backgroundSize: "20px 20px", // Adjust the size of the icon
+                }}
+              />
+            </div>
+            <div>
+              <Button
+                className="text-lg text-white font-bold uppercase px-11 py-5 w-52"
+                variant={"default"}
+                size={"default"}
+              >
+                Get a quote
+              </Button>
+            </div>
+          </div>
+        </div>
+
+        <div className="block sm:hidden col-span-12 md:col-span-7 flex items-center pt-14 ">
+          <img
+            src="/assets/images/contact/contact.png"
+            alt="Interior Model"
+            className="w-full h-[300px] sm:h-[592px]"
+          />
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export default Contact;
+  2 changes: 2 additions & 0 deletions2  
+src/views/Home/index.tsx
+@@ -8,6 +8,7 @@ import Work from "./Work";
+import Services from "./Services";
+import Projects from "./Projects";
+import Stats from "./Stats";
+import Contact from "./Contact";
+
+function Index() {
+  return (
+@@ -22,6 +23,7 @@ function Index() {
+      <Services />
+      <Projects />
+      <Stats />
+      <Contact />
+    </div>
+  );
+}
+0 comments on commit cff5584
+@srd-azminds
+ 
+Leave a comment
+No file chosen
+Attach files by dragging & dropping, selecting or pasting them.
+Footer
+© 2023 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
