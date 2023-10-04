@@ -2,21 +2,21 @@ import StyledHeader from "@/components/StyledHeader";
 
 const services = [
   {
-    icon: "/assets/images/service/expert.svg",
+    icon: "/assets/images/meem/expert.svg",
     title: "Expertise That Delivers",
     slogan: "Designing Tomorow, Today.!",
     content:
       "We bring a wealth of experience and innovation to create cutting-edge solutions for your projects.",
   },
   {
-    icon: "/assets/images/service/sustain.svg",
+    icon: "/assets/images/meem/sustain.svg",
     title: "Sustainablility at Heart",
     slogan: "Building a Greener Future!",
     content:
       "Our commitment to sustainable practices ensures a better environment for generations to come.",
   },
   {
-    icon: "/assets/images/service/client.svg",
+    icon: "/assets/images/meem/client.svg",
     title: "Client-Centric Approach",
     slogan: "Your Vision, Our Priority!",
     content:
@@ -32,7 +32,7 @@ function Services() {
         <h1 className="mb-6 text-2xl  sm:text-4xl font-medium text-head sm:w-[550px]">
           Unlock the Future of Architectural Creativity
         </h1>
-        <div className="grid grid-cols-12 gap-8">
+        <div className="grid grid-cols-12 gap-8 sm:pt-10">
           {services.map((service, index) => (
             <div
               className="col-span-12 sm:col-span-4 bg-white p-10 flex flex-col gap-8"
