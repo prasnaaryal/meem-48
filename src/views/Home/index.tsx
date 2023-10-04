@@ -7,6 +7,7 @@ import Tailored from "./Tailored";
 import Work from "./Work";
 import Services from "./Services";
 import Projects from "./Projects";
+import Stats from "./Stats";
 
 function Index() {
   return (
@@ -20,6 +21,7 @@ function Index() {
       <Work />
       <Services />
       <Projects />
+      <Stats />
     </div>
   );
 }
