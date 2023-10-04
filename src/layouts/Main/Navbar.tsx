@@ -99,6 +99,7 @@ export default function Navbar({ home = false }) {
                       <ScrollLink
                         to={route?.href}
                         smooth={true}
+                        duration={0}
                         key={route.name}
                         className="cursor-pointer"
                       >
