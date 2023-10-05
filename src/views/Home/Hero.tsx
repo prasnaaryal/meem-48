@@ -20,7 +20,7 @@ function Hero() {
           </div>
         </div>
       </div>
-      <div className="container">
+      <div className="container pl-36 sm:pl-0">
         <ScrollLink
           to={"contact"}
           smooth={true}
