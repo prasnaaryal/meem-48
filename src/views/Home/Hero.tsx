@@ -1,8 +1,9 @@
 import React from "react";
+import { Link as ScrollLink } from "react-scroll";
 
 function Hero() {
   return (
-    <div>
+    <div style={{ position: "relative" }}>
       <div className="container w-full py-16 sm:px-28 mt-20">
         <div className="flex flex-col gap-7">
           <div className="w-full flex justify-center">
@@ -18,6 +19,19 @@ function Hero() {
             </p>
           </div>
         </div>
+      </div>
+      <div className="container">
+        <ScrollLink
+          to={"contact"}
+          smooth={true}
+          duration={0}
+          key={"Contact"}
+          className="cursor-pointer"
+        >
+          <div className="absolute top-80 sm:top-72 animate-spin animation-delay-5s">
+            <img src="/assets/images/getInTouch.svg" alt="Get in touch" />
+          </div>
+        </ScrollLink>
       </div>
       <div className="w-full h-[640px]">
         <img

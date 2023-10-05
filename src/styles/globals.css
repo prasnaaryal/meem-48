@@ -116,6 +116,22 @@
   background-color: rgba(65, 105, 225, 0.73); /* Set the active dot color */
 }
 
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animation-delay-5s {
+  animation: spin 5s linear infinite, spin-start 0s 1;
+}
+
+@keyframes spin-start {
+  from {
+    transform: rotate(0deg);
+  }
+}
+
 /* Underline on Hover effect */
 .underline-on-hover {
   position: relative;
